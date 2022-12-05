@@ -6,3 +6,4 @@ RUN curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -
     && rm -f Miniconda3-latest-Linux-x86_64.sh 
     
 RUN /root/miniconda3/bin/conda install -c pytorch faiss-gpu
+Run /root/miniconda3/bin/python -m pip install tensorflow
