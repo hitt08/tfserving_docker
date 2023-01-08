@@ -1,3 +1,5 @@
 tensorflow
 recommenders
 flask
+torch
+transformers
