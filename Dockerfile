@@ -12,3 +12,4 @@ RUN /root/miniconda3/bin/conda install -c pytorch faiss-gpu
 COPY requirements.txt /tmp
 Run /root/miniconda3/bin/python -m pip install --no-cache-dir -r /tmp/requirements.txt \
     && rm -f /tmp/requirements.txt
+RUN /root/miniconda3/bin/python -m pip install -u torch --no-cache-dir
